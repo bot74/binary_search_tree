@@ -41,7 +41,7 @@ void TreePaint::paintEvent(QPaintEvent *event)
     painter.setRenderHint(QPainter::Antialiasing);
     painter.setRenderHint(QPainter::TextAntialiasing);
     //背景图
-    painter.drawPixmap(rect(),QPixmap("://image/600_400.jpg"));
+    painter.drawPixmap(rect(),QPixmap(":/image/600_400.jpg"));
     //设置字体会导致运行时错误
     QFont font;
     font.setFamily("Microsoft YaHei");  //设置字体
@@ -51,7 +51,8 @@ void TreePaint::paintEvent(QPaintEvent *event)
     //设置画笔
     QPen penLine;
     penLine.setWidth(2);//线宽
-    penLine.setColor(Qt::blue);
+    //penLine.setColor(Qt::blue);
+    penLine.setColor(Qt::white);
     penLine.setStyle(Qt::SolidLine);
     penLine.setCapStyle(Qt::FlatCap);
     penLine.setJoinStyle(Qt::BevelJoin);

@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>600_400.jpg</file>
+        <file>QtSplashTest.jpg</file>
+        <file>bluebird.png</file>
+    </qresource>
+</RCC>
